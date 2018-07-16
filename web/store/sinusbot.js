@@ -30,11 +30,9 @@ export const mutations =  {
     state.currentTrack = currentTrack.title
   },
   startLoading (state) {
-    console.log('[LOADING] assign true')
     state.loading = true
   },
   stopLoading (state) {
-    console.log('[LOADING] assign false')
     state.loading = false
   }
 }
